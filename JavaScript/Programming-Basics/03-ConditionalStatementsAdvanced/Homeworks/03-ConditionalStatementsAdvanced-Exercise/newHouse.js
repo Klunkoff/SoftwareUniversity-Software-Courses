@@ -39,7 +39,6 @@ function solve(input) {
 
             break;
 
-
         case 'Tulips':
 
             if (numberFlowers <= 80) {
