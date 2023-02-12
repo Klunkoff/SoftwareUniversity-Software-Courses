@@ -6,14 +6,12 @@ function ladybugs(ladybugsArray) {
     let fieldArray = [];
 
     for (let i = 0; i < fieldSize; i++) {
-
         fieldArray.push(0);
     }
 
     for (let element of ladybugsIndexArray) {
 
         if (element >= 0 && element < fieldArray.length) {
-
             fieldArray.splice(element, 1, 1);
         }
     }
@@ -40,7 +38,6 @@ function ladybugs(ladybugsArray) {
                         let currentSpot = fieldArray[k];
 
                         if (currentSpot === 0) {
-
                             fieldArray.splice(k, 1, 1);
 
                             break;
@@ -58,7 +55,6 @@ function ladybugs(ladybugsArray) {
                             let currentSpot = fieldArray[z];
 
                             if (currentSpot === 0) {
-
                                 fieldArray.splice(z, 1, 1);
 
                                 break;
@@ -74,7 +70,6 @@ function ladybugs(ladybugsArray) {
                             let currentSpot = fieldArray[z];
 
                             if (currentSpot === 0) {
-
                                 fieldArray.splice(z, 1, 1);
 
                                 break;
