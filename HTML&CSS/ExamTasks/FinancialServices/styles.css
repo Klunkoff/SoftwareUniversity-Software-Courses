@@ -1,0 +1,91 @@
+@import url('https://fonts.google.com/specimen/Poppins');
+
+body {
+    font-family: "Poppins", sans-serif;
+    width: 100vw;
+    height: 100vh;
+    padding: 10% 7% 3% 7%; 
+    background-color: black;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    background-color: white;
+    padding: 50px 100px 100px;
+}
+
+header {
+    margin-bottom: 30px;
+}
+
+header h1 {
+    text-align: center;
+    color: black;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+header h4 {
+    color: #060402;
+    font-size: 18px;
+}
+
+header span {
+    color: #327dc4;
+}
+
+.sections {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 30px;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    background-color: #819daf;
+    border-radius: 20px;
+}
+
+.info {
+    padding: 30px 20px 15px;
+}
+
+img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+h2 {
+    color: #001124;
+    font-size: 29px;
+    margin-bottom: 15px;
+}
+
+.info p {
+    color: #02042d;
+    font-size: 20px;
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+
+.info button {
+    background-color: #327dc4;
+    color: white;
+    font-size: 16px;
+    padding: 7px 25px;
+    margin-bottom: 5px;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+
+
+
+
